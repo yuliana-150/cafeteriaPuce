@@ -33,3 +33,66 @@ body{
   color: palevioletred;
   text-align: center;
 }
+  .logo{
+    color:rgba(217, 158, 219, 0.226);
+    font-size: 1.5rem
+    font-weight: blond;
+  }
+  .nav-bar > a{
+     color:burlywood;
+     text-decoration: none;
+     font-size: 1rem;
+     transition: color 1s ease;
+  }
+  
+  .nav-bar > a:hover{
+    color: plum;
+  }
+
+  .contenedor-principal{
+     display: flex;
+     justify-content: center;
+     gap: 30px;
+     flex-wrap: wrap;
+     padding: 0 20px;
+  }
+
+  .tarjeta{
+    background-color: beige;
+    padding: 25px;
+    width: 400px;
+    border-radius: 15px;
+    height: 400px;
+    box-shadow: 0 4px 10px peachpuff;
+  }
+
+  .tarjeta:hover{
+    transform: translateY(-10px);
+     box-shadow: 0 4px 10px paleturquoise;
+  }
+
+  .tarjeta h2{
+    margin-bottom: 15 px;
+    color: plum;
+    text-align: center;
+  }
+
+  .tarjeta p{
+    font-size: 1rem;
+    margin-bottom: 20 px;
+    color: black;
+  }
+
+  .boton-tarjeta{
+    padding: 10px 20px;
+    border: none;
+    background-color: violet;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 200px;
+  }
+
+  .boton-tarjeta:hover{
+    background-color: palegreen;
+  }
